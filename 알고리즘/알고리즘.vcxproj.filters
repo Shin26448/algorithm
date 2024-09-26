@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\1. 자료구조 복습">
+      <UniqueIdentifier>{f2b53e3a-4821-4114-a86e-a49b9b16b223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\2. 우선순위큐">
+      <UniqueIdentifier>{b735fd77-5581-4f51-aae1-5639e49b6fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\3. 힙과힙정렬%281%29">
+      <UniqueIdentifier>{3d4d604f-7199-41bc-a844-f8a5eb7fe3ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\4. 힙과힙정렬%282%29">
+      <UniqueIdentifier>{6c70e295-04ce-4c56-9e76-07d2590cdd7b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="자료구조복습2.c">
+      <Filter>리소스 파일\1. 자료구조 복습</Filter>
+    </ClCompile>
+    <ClCompile Include="자료구조복습1.c">
+      <Filter>리소스 파일\1. 자료구조 복습</Filter>
+    </ClCompile>
+    <ClCompile Include="우선순위큐1.c">
+      <Filter>리소스 파일\2. 우선순위큐</Filter>
+    </ClCompile>
+    <ClCompile Include="우선순위큐2.c">
+      <Filter>리소스 파일\2. 우선순위큐</Filter>
+    </ClCompile>
+    <ClCompile Include="연습.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="힙과힙정렬(1)1.c">
+      <Filter>리소스 파일\3. 힙과힙정렬%281%29</Filter>
+    </ClCompile>
+    <ClCompile Include="힙과힙정렬%281%292-비재귀.c">
+      <Filter>리소스 파일\3. 힙과힙정렬%281%29</Filter>
+    </ClCompile>
+    <ClCompile Include="힙과힙정렬%282%291.c">
+      <Filter>리소스 파일\4. 힙과힙정렬%282%29</Filter>
+    </ClCompile>
+    <ClCompile Include="힙과힙정렬(2)2.c">
+      <Filter>리소스 파일\4. 힙과힙정렬%282%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="힙과힙정렬%281%292-재귀.c">
+      <Filter>리소스 파일\3. 힙과힙정렬%281%29</Filter>
+    </None>
+  </ItemGroup>
+</Project>
